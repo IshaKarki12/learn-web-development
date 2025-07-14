@@ -1,0 +1,43 @@
+.container{
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    /* flex-wrap:wrap; */
+    height: 100vh;
+    position:relative;
+}
+
+.container2{
+    background-color: lightblue;
+    height: 100vh;
+}
+
+.box1{
+    height: 200px;
+    width:200px;
+    /* top: 400px; */
+    color:red;
+    /* position: relative; */
+    background-color: blue;
+    margin: 5px;
+    flex-shrink: 5;
+}
+
+.box2{
+    height: 50px;
+    width:200px;
+    position: fixed;
+    top: 400px;
+    color:red;
+    background-color: green;
+    margin: 5px;
+}
+
+.box3{
+    height: 200px;
+    width:200px;
+    color:red;
+
+    background-color: yellow;
+    margin: 5px;
+}
