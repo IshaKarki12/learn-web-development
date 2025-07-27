@@ -1,0 +1,103 @@
+/* p{
+    animation: helloworld 10s ease-in;
+} */
+
+/* .box{
+    height: 100px;
+    width: 100px;
+    background: gray;
+    animation: boxmove 5s ease-in infinite;
+} */
+
+p{
+    background-color: green;
+    display: inline;
+}
+/* .box{
+    background-color: red;
+} */
+
+span{
+    display: inline;
+    background-color: gray;
+}
+
+
+@keyframes helloworld{
+    0%{
+        color: red;
+        /* margin-left: 200px; */
+        margin-top: 200px;
+    }
+    50%{
+        color: green;
+        /* margin-left: 500px; */
+        margin-top: 500px;
+    }
+    100%{
+        color: blue;
+        margin-top: 900px;
+    }
+}
+
+@keyframes boxmove{
+    0%{
+        background-color: red;
+        margin-top: 200px;
+
+    }
+    50%{
+        background-color: black;
+        border: 2px solid green;
+        border-radius: 50%;
+        margin-top: 500px;
+
+    }
+    75%{
+        background-color: blue;
+        /* margin-left: 600px; */
+        border: 2px solid yellow;
+        border-radius: 100%;
+        margin-top: 600px;
+    }
+    100%{
+        background-color: blueviolet;
+        /* margin-left: 900px; */
+        border: 2px solid blue;
+        border-radius: 60%;
+        margin-top: 650px;
+    }
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+
+}
+
+
+
+.item-1{
+    /* color: red; */
+    background-color: red;
+    z-index: -1;
+    top: 100px
+
+}
+
+.item-2{
+    /* color: blue; */
+    background-color: blue;
+    z-index: 3;
+    top:170px;
+    left:60px
+}
+
+.item-3{
+    /* color: gray; */
+    background-color: gray;
+    top: 250px;
+    left: 50px;
+    z-index: 4;
+}
